@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 import { Platform, ActionSheetController } from 'ionic-angular';
+import { AlertController } from 'ionic-angular';
 
 @Component({
   selector: 'page-home',
@@ -11,7 +12,8 @@ export class HomePage {
   constructor(
       public navCtrl: NavController,
       public platform: Platform,
-      public actionsheetCtrl: ActionSheetController
+      public actionsheetCtrl: ActionSheetController,
+      public alertCtrl: AlertController
   ) { }
 
   openActionSheet() {
@@ -60,4 +62,43 @@ export class HomePage {
       });
       actionSheet.present();
   }
+
+  showBasicAlert() {
+      const alert = this.alertCtrl.create({
+          title: 'New Friend!',
+          subTitle: 'Your friend, Obi wan Kenobi, just accepted your friend request!',
+          buttons: ['OK']
+      });
+      alert.present();
+  }
+
+  showPromptAlert() {
+    const prompt = this.alertCtrl.create({
+      title: 'Login',
+      message: "Enter a name for this new album you're so keen on adding",
+      inputs: [
+        {
+          name: 'title',
+          placeholder: 'Title'
+        },
+      ],
+      buttons: [
+        {
+          text: 'Cancel',
+          handler: data => {
+            console.log('Cancel clicked');
+          }
+        },
+        {
+          text: 'Save',
+          handler: data => {
+            console.log('Saved clicked');
+          }
+        }
+      ]
+    });
+    prompt.present();
+  }
+
+
 }

@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Nov 30 16:49:35 KST 2018
+#Fri Nov 30 17:37:26 KST 2018
 5.base=/Users/nana/Documents/own_studying/ionic/ionic-helloworld/platforms/android/app/build/intermediates/assets/debug
 42.base=/Users/nana/Documents/own_studying/ionic/ionic-helloworld/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 22.path=www/assets/fonts/ionicons.woff2
