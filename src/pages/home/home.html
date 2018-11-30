@@ -20,21 +20,23 @@
         Show Action Sheet
     </button>
 
-    <button ion-button block color="dark" (click)="showBasicAlert()">
+    <button ion-button block color="dark" outline (click)="showBasicAlert()">
         Show Basic Alert
     </button>
 
-    <button ion-button block color="secondary" (click)="showPromptAlert()">
+    <button ion-button full color="secondary" (click)="showPromptAlert()">
         Show Prompt Alert
     </button>
 
-    <button ion-button block color="primary" (click)="showConfirmAlert()">
+    <button ion-button block small color="light" (click)="showConfirmAlert()">
         Show Confirm Alert
     </button>
 
-    <button ion-button block color="primary" (click)="showRadioAlert()">
+    <button ion-button block large color="primary" clear (click)="showRadioAlert()">
         Show Radio Alert
     </button>
 
-    <button ion-button block color="danger" (click)="showCheckAlert()">Show Checkbox Alert</button>
+    <button ion-button block color="danger" round (click)="showCheckAlert()">Show Checkbox Alert</button>
+
+    Badges <ion-badge color="secondary">260k</ion-badge>
 </ion-content>
