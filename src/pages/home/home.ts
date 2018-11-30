@@ -9,6 +9,9 @@ import { AlertController } from 'ionic-angular'
 })
 export class HomePage {
 
+    testRadioOpen: boolean;
+    testRadioResult;
+
     constructor (
         public navCtrl: NavController,
         public platform: Platform,
@@ -120,6 +123,64 @@ export class HomePage {
             ]
         });
         confirm.present();
+    }
+
+    showRadioAlert() {
+        let alert = this.alertCtrl.create();
+        alert.setTitle('Lightsaber color');
+
+        alert.addInput({
+            type: 'radio',
+            label: 'Blue',
+            value: 'blue',
+            checked: true
+        });
+
+        alert.addInput({
+            type: 'radio',
+            label: 'Green',
+            value: 'green'
+        });
+
+        alert.addInput({
+            type: 'radio',
+            label: 'Red',
+            value: 'red'
+        });
+
+        alert.addInput({
+            type: 'radio',
+            label: 'Yellow',
+            value: 'yellow'
+        });
+
+        alert.addInput({
+            type: 'radio',
+            label: 'Purple',
+            value: 'purple'
+        });
+
+        alert.addInput({
+            type: 'radio',
+            label: 'White',
+            value: 'white'
+        });
+
+        alert.addInput({
+            type: 'radio',
+            label: 'Black',
+            value: 'black'
+        });
+
+        alert.addButton('Cancel');
+        alert.addButton({
+            text: 'OK',
+            handler: data => {
+                this.testRadioOpen = false;
+                this.testRadioResult = data;
+            }
+        });
+        alert.present();
     }
 
 }
