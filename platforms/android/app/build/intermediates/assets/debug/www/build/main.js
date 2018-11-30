@@ -213,9 +213,72 @@ var HomePage = /** @class */ (function () {
         });
         alert.present();
     };
+    HomePage.prototype.showCheckAlert = function () {
+        var _this = this;
+        var alert = this.alertCtrl.create();
+        alert.setTitle('Which planets have you visited?');
+        alert.addInput({
+            type: 'checkbox',
+            label: 'Alderaan',
+            value: 'value1',
+            checked: true
+        });
+        alert.addInput({
+            type: 'checkbox',
+            label: 'Bespin',
+            value: 'value2'
+        });
+        alert.addInput({
+            type: 'checkbox',
+            label: 'Coruscant',
+            value: 'value3'
+        });
+        alert.addInput({
+            type: 'checkbox',
+            label: 'Endor',
+            value: 'value4'
+        });
+        alert.addInput({
+            type: 'checkbox',
+            label: 'Hoth',
+            value: 'value5'
+        });
+        alert.addInput({
+            type: 'checkbox',
+            label: 'Jakku',
+            value: 'value6'
+        });
+        alert.addInput({
+            type: 'checkbox',
+            label: 'Naboo',
+            value: 'value6'
+        });
+        alert.addInput({
+            type: 'checkbox',
+            label: 'Takodana',
+            value: 'value6'
+        });
+        alert.addInput({
+            type: 'checkbox',
+            label: 'Tatooine',
+            value: 'value6'
+        });
+        alert.addButton('Cancel');
+        alert.addButton({
+            text: 'Okay',
+            handler: function (data) {
+                console.log('Checkbox data:', data);
+                _this.testCheckboxOpen = false;
+                _this.testCheckboxResult = data;
+            }
+        });
+        alert.present().then(function () {
+            _this.testCheckboxOpen = true;
+        });
+    };
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/home/home.html"*/'<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>Home</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <h3>Ionic Menu Starter</h3>\n\n    <p>\n        If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.\n    </p>\n\n    <button ion-button secondary menuToggle>Toggle Menu</button>\n\n    <button ion-button block (click)="openActionSheet()">\n        Show Action Sheet\n    </button>\n\n    <button ion-button block color="dark" (click)="showBasicAlert()">\n        Show Basic Alert\n    </button>\n\n    <button ion-button block color="secondary" (click)="showPromptAlert()">\n        Show Prompt Alert\n    </button>\n\n    <button ion-button block color="primary" (click)="showConfirmAlert()">\n        Show Confirm Alert\n    </button>\n\n    <button ion-button block color="primary" (click)="showRadioAlert()">\n        Show Radio Alert\n    </button>\n</ion-content>\n'/*ion-inline-end:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/home/home.html"*/'<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>Home</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content padding>\n    <h3>Ionic Menu Starter</h3>\n\n    <p>\n        If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.\n    </p>\n\n    <button ion-button secondary menuToggle>Toggle Menu</button>\n\n    <button ion-button block (click)="openActionSheet()">\n        Show Action Sheet\n    </button>\n\n    <button ion-button block color="dark" (click)="showBasicAlert()">\n        Show Basic Alert\n    </button>\n\n    <button ion-button block color="secondary" (click)="showPromptAlert()">\n        Show Prompt Alert\n    </button>\n\n    <button ion-button block color="primary" (click)="showConfirmAlert()">\n        Show Confirm Alert\n    </button>\n\n    <button ion-button block color="primary" (click)="showRadioAlert()">\n        Show Radio Alert\n    </button>\n\n    <button ion-button block color="danger" (click)="showCheckAlert()">Show Checkbox Alert</button>\n</ion-content>\n'/*ion-inline-end:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* NavController */],
             __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["i" /* Platform */],
