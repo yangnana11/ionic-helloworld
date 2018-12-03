@@ -1,23 +1,127 @@
 <ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>List</ion-title>
-  </ion-navbar>
+    <ion-navbar>
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title>List</ion-title>
+    </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-      <ion-icon [name]="item.icon" item-start></ion-icon>
-      {{item.title}}
-      <div class="item-note" item-end>
-        {{item.note}}
-      </div>
-    </button>
-  </ion-list>
-  <div *ngIf="selectedItem" padding>
-    You navigated here from <b>{{selectedItem.title}}</b>
-  </div>
+    <ion-list>
+        <ion-list-header>
+            Push item
+        </ion-list-header>
+        <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
+            <ion-icon [name]="item.icon" item-start></ion-icon>
+            {{item.title}}
+            <div class="item-note" item-end>
+                {{item.note}}
+            </div>
+        </button>
+    </ion-list>
+    <ion-list>
+        <ion-list-header>
+            Basic List
+        </ion-list-header>
+        <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
+            {{ item.title }}
+        </button>
+    </ion-list>
+    <ion-list no-lines>
+        <ion-list-header>
+            No Line List
+        </ion-list-header>
+        <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
+            {{ item.title }}
+        </button>
+    </ion-list>
+    <ion-list inset>
+        <ion-list-header>
+            Inset List
+        </ion-list-header>
+        <button ion-item *ngFor="let item of items" (click)="itemSelected(item)">
+            {{ item.title }}
+        </button>
+    </ion-list>
+
+    <ion-list>
+        <ion-list-header>
+            Avatar List
+        </ion-list-header>
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="assets/imgs/avatar-ts-woody.png">
+            </ion-avatar>
+            <h2>Cher</h2>
+            <p>Ugh. As if.</p>
+        </ion-item>
+    </ion-list>
+
+    <ion-list>
+        <ion-list-header>
+            Multi-Line List
+        </ion-list-header>
+        <ion-item>
+            <ion-avatar item-start>
+                <img src="assets/imgs/avatar-ts-woody.png">
+            </ion-avatar>
+            <h2>Finn</h2>
+            <h3>Don't Know What To Do!</h3>
+            <p>I've had a pretty messed up day. If we just...</p>
+        </ion-item>
+    </ion-list>
+
+    <ion-list>
+        <ion-list-header>
+           Sliding List
+        </ion-list-header>
+        <ion-item-sliding>
+            <ion-item>
+                <ion-avatar item-start>
+                    <img src="assets/imgs/avatar-ts-woody.png">
+                </ion-avatar>
+                <h2>Slimer</h2>
+            </ion-item>
+            <ion-item-options side="left">
+                <button ion-button color="primary">
+                    <ion-icon name="text"></ion-icon>
+                    Text
+                </button>
+                <button ion-button color="secondary">
+                    <ion-icon name="call"></ion-icon>
+                    Call
+                </button>
+            </ion-item-options>
+            <ion-item-options side="right">
+                <button ion-button color="primary">
+                    <ion-icon name="mail"></ion-icon>
+                    Email
+                </button>
+            </ion-item-options>
+        </ion-item-sliding>
+    </ion-list>
+
+    <ion-list>
+        <ion-list-header>
+            Thumbnail List
+        </ion-list-header>
+        <ion-item>
+            <ion-thumbnail item-start>
+                <img src="assets/imgs/thumbnail-totoro.png">
+            </ion-thumbnail>
+            <h2>My Neighbor Totoro</h2>
+            <p>Hayao Miyazaki • 1988</p>
+            <button ion-button clear item-end>View</button>
+        </ion-item>
+    </ion-list>
+
+    <ion-item-group>
+        <ion-item-divider color="light">A</ion-item-divider>
+        <ion-item>Angola</ion-item>
+        <ion-item>Argentina</ion-item>
+    </ion-item-group>
+    <div *ngIf="selectedItem" padding>
+        You navigated here from <b>{{selectedItem.title}}</b>
+    </div>
 </ion-content>
