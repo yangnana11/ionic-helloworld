@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Dec 03 15:21:27 KST 2018
+#Mon Dec 03 15:34:20 KST 2018
 56.path=www/cordova-js-src/android/promptbasednativeapi.js
 5.base=/Users/nana/Documents/own_studying/ionic/ionic-helloworld/platforms/android/app/build/intermediates/assets/debug
 42.base=/Users/nana/Documents/own_studying/ionic/ionic-helloworld/platforms/android/app/build/intermediates/assets/debug

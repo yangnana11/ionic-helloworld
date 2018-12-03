@@ -462,9 +462,36 @@ var GesturePage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GridPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var GridPage = /** @class */ (function () {
+    function GridPage() {
+    }
+    GridPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/grid/grid.html"*/'<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>Grid</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="grid-basic-page">\n\n\n    <p padding>\n        Equal-width columns\n    </p>\n    <ion-grid>\n        <ion-row>\n            <ion-col>\n                <div>1 of 2</div>\n            </ion-col>\n            <ion-col>\n                <div>2 of 2</div>\n            </ion-col>\n        </ion-row>\n        <ion-row>\n            <ion-col>\n                <div>1 of 3</div>\n            </ion-col>\n            <ion-col>\n                <div>2 of 3</div>\n            </ion-col>\n            <ion-col>\n                <div>3 of 3</div>\n            </ion-col>\n        </ion-row>\n    </ion-grid>\n\n    <p padding>\n        Setting one column width\n    </p>\n    <ion-grid>\n        <ion-row>\n            <ion-col>\n                <div>1 of 3</div>\n            </ion-col>\n            <ion-col col-6>\n                <div>2 of 3 (wider)</div>\n            </ion-col>\n            <ion-col>\n                <div>3 of 3</div>\n            </ion-col>\n        </ion-row>\n        <ion-row>\n            <ion-col col-6>\n                <div>1 of 3 (wider)</div>\n            </ion-col>\n            <ion-col>\n                <div>2 of 3</div>\n            </ion-col>\n            <ion-col>\n                <div>3 of 3</div>\n            </ion-col>\n        </ion-row>\n    </ion-grid>\n\n    <p padding>\n        Variable-width columns\n    </p>\n    <ion-grid>\n        <ion-row>\n            <ion-col>\n                <div>1 of 3</div>\n            </ion-col>\n            <ion-col col-auto>\n                <div>Variable width content</div>\n            </ion-col>\n            <ion-col>\n                <div>3 of 3</div>\n            </ion-col>\n        </ion-row>\n        <ion-row>\n            <ion-col>\n                <div>1 of 4</div>\n            </ion-col>\n            <ion-col>\n                <div>2 of 4</div>\n            </ion-col>\n            <ion-col col-auto>\n                <div><ion-icon name="globe"></ion-icon></div>\n            </ion-col>\n            <ion-col>\n                <div>4 of 4</div>\n            </ion-col>\n        </ion-row>\n    </ion-grid>\n\n    <p padding>\n        Offsetting columns\n    </p>\n    <ion-grid>\n        <ion-row>\n            <ion-col>\n                <div>1 of 2</div>\n            </ion-col>\n            <ion-col offset-4>\n                <div>2 of 2</div>\n            </ion-col>\n        </ion-row>\n\n        <ion-row>\n            <ion-col offset-4>\n                <div>1 of 2</div>\n            </ion-col>\n            <ion-col>\n                <div>2 of 2</div>\n            </ion-col>\n        </ion-row>\n    </ion-grid>\n\n    <p padding>\n        Push and pull\n    </p>\n    <ion-grid>\n        <ion-row>\n            <ion-col col-9 push-3>\n                <div>1 of 2</div>\n            </ion-col>\n            <ion-col col-3 pull-9>\n                <div>2 of 2</div>\n            </ion-col>\n        </ion-row>\n\n        <ion-row>\n            <ion-col col-6 push-3>\n                <div>1 of 3</div>\n            </ion-col>\n            <ion-col col-3 push-3>\n                <div>2 of 3</div>\n            </ion-col>\n            <ion-col col-3 pull-9>\n                <div>3 of 3</div>\n            </ion-col>\n        </ion-row>\n    </ion-grid>\n\n    <p padding>\n        Setting all column widths<br>\n    </p>\n    <ion-grid>\n        <ion-row>\n            <ion-col col-4>\n                <div>1 of 3</div>\n            </ion-col>\n            <ion-col col-3>\n                <div>2 of 3</div>\n            </ion-col>\n            <ion-col col-5>\n                <div>3 of 3</div>\n            </ion-col>\n        </ion-row>\n    </ion-grid>\n\n    <p padding>\n        Vertical alignment\n    </p>\n    <ion-grid>\n        <ion-row>\n            <ion-col>\n                <div>1 of 4</div>\n            </ion-col>\n            <ion-col>\n                <div>2 of 4 <br>#</div>\n            </ion-col>\n            <ion-col>\n                <div>3 of 4 <br>#<br>#</div>\n            </ion-col>\n            <ion-col>\n                <div>4 of 4 <br>#<br>#<br>#</div>\n            </ion-col>\n        </ion-row>\n\n        <ion-row align-items-start>\n            <ion-col>\n                <div>1 of 4</div>\n            </ion-col>\n            <ion-col>\n                <div>2 of 4</div>\n            </ion-col>\n            <ion-col>\n                <div>3 of 4</div>\n            </ion-col>\n            <ion-col>\n                <div>4 of 4 <br>#<br>#<br>#</div>\n            </ion-col>\n        </ion-row>\n\n        <ion-row align-items-center>\n            <ion-col>\n                <div>1 of 4</div>\n            </ion-col>\n            <ion-col>\n                <div>2 of 4</div>\n            </ion-col>\n            <ion-col>\n                <div>3 of 4</div>\n            </ion-col>\n            <ion-col>\n                <div>4 of 4 <br>#<br>#<br>#</div>\n            </ion-col>\n        </ion-row>\n\n        <ion-row align-items-end>\n            <ion-col>\n                <div>1 of 4</div>\n            </ion-col>\n            <ion-col>\n                <div>2 of 4</div>\n            </ion-col>\n            <ion-col>\n                <div>3 of 4</div>\n            </ion-col>\n            <ion-col>\n                <div>4 of 4 <br>#<br>#<br>#</div>\n            </ion-col>\n        </ion-row>\n    </ion-grid>\n\n    <ion-grid>\n        <ion-row>\n            <ion-col align-self-start>\n                <div>1 of 4</div>\n            </ion-col>\n            <ion-col align-self-center>\n                <div>2 of 4</div>\n            </ion-col>\n            <ion-col align-self-end>\n                <div>3 of 4</div>\n            </ion-col>\n            <ion-col>\n                <div>4 of 4 <br>#<br>#<br>#</div>\n            </ion-col>\n        </ion-row>\n    </ion-grid>\n\n    <p padding>\n        Horizontal Alignment\n    </p>\n    <ion-grid>\n        <ion-row justify-content-start>\n            <ion-col col-3>\n                <div>1 of 2</div>\n            </ion-col>\n            <ion-col col-3>\n                <div>2 of 2</div>\n            </ion-col>\n        </ion-row>\n\n        <ion-row justify-content-center>\n            <ion-col col-3>\n                <div>1 of 2</div>\n            </ion-col>\n            <ion-col col-3>\n                <div>2 of 2</div>\n            </ion-col>\n        </ion-row>\n\n        <ion-row justify-content-end>\n            <ion-col col-3>\n                <div>1 of 2</div>\n            </ion-col>\n            <ion-col col-3>\n                <div>2 of 2</div>\n            </ion-col>\n        </ion-row>\n\n        <ion-row justify-content-around>\n            <ion-col col-3>\n                <div>1 of 2</div>\n            </ion-col>\n            <ion-col col-3>\n                <div>2 of 2</div>\n            </ion-col>\n        </ion-row>\n\n        <ion-row justify-content-between>\n            <ion-col col-3>\n                <div>1 of 2</div>\n            </ion-col>\n            <ion-col col-3>\n                <div>2 of 2</div>\n            </ion-col>\n        </ion-row>\n    </ion-grid>\n</ion-content>\n'/*ion-inline-end:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/grid/grid.html"*/
+        })
+    ], GridPage);
+    return GridPage;
+}());
+
+//# sourceMappingURL=grid.js.map
+
+/***/ }),
+
+/***/ 323:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(323);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(345);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(324);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(346);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -472,7 +499,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 345:
+/***/ 346:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -480,20 +507,22 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(388);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(389);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(318);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_card_card__ = __webpack_require__(319);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_fab_fab__ = __webpack_require__(320);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_gesture_gesture__ = __webpack_require__(321);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_grid_grid__ = __webpack_require__(322);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__ = __webpack_require__(193);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -516,7 +545,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_card_card__["a" /* CardPage */],
                 __WEBPACK_IMPORTED_MODULE_7__pages_fab_fab__["a" /* FabPage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_gesture_gesture__["a" /* GesturePage */]
+                __WEBPACK_IMPORTED_MODULE_8__pages_gesture_gesture__["a" /* GesturePage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_grid_grid__["a" /* GridPage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -531,11 +561,12 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_card_card__["a" /* CardPage */],
                 __WEBPACK_IMPORTED_MODULE_7__pages_fab_fab__["a" /* FabPage */],
-                __WEBPACK_IMPORTED_MODULE_8__pages_gesture_gesture__["a" /* GesturePage */]
+                __WEBPACK_IMPORTED_MODULE_8__pages_gesture_gesture__["a" /* GesturePage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_grid_grid__["a" /* GridPage */]
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__["a" /* StatusBar */],
-                __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_11__ionic_native_splash_screen__["a" /* SplashScreen */],
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicErrorHandler */] }
             ]
         })
@@ -547,7 +578,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 388:
+/***/ 389:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -561,6 +592,7 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_card_card__ = __webpack_require__(319);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_fab_fab__ = __webpack_require__(320);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_gesture_gesture__ = __webpack_require__(321);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_grid_grid__ = __webpack_require__(322);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -570,6 +602,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -592,7 +625,8 @@ var MyApp = /** @class */ (function () {
             { title: 'List', component: __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */] },
             { title: 'Card', component: __WEBPACK_IMPORTED_MODULE_6__pages_card_card__["a" /* CardPage */] },
             { title: 'Fab', component: __WEBPACK_IMPORTED_MODULE_7__pages_fab_fab__["a" /* FabPage */] },
-            { title: 'Gesture', component: __WEBPACK_IMPORTED_MODULE_8__pages_gesture_gesture__["a" /* GesturePage */] }
+            { title: 'Gesture', component: __WEBPACK_IMPORTED_MODULE_8__pages_gesture_gesture__["a" /* GesturePage */] },
+            { title: 'Grid', component: __WEBPACK_IMPORTED_MODULE_9__pages_grid_grid__["a" /* GridPage */] }
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -625,7 +659,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 397:
+/***/ 398:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -890,9 +924,9 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 397;
+webpackContext.id = 398;
 
 /***/ })
 
-},[322]);
+},[323]);
 //# sourceMappingURL=main.js.map
