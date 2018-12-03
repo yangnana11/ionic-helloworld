@@ -374,7 +374,7 @@ var CardPage = /** @class */ (function () {
     function CardPage() {
     }
     CardPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/card/card.html"*/'<ion-header>\n    <ion-navbar>\n        <ion-title>Basic Cards</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="cards-bg">\n\n    <ion-card>\n\n        <ion-card-content>\n            This is just your basic card with some text to boot. Like it? Keep scrolling...\n        </ion-card-content>\n\n    </ion-card>\n\n    <ion-card>\n        <ion-card-header>\n            Header\n        </ion-card-header>\n        <ion-card-content>\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n        </ion-card-content>\n    </ion-card>\n\n    <ion-card>\n        <ion-card-header>\n            Explore Nearby\n        </ion-card-header>\n\n        <ion-list>\n            <button ion-item>\n                <ion-icon name="cart" item-start></ion-icon>\n                Shopping\n            </button>\n\n            <button ion-item>\n                <ion-icon name="medical" item-start></ion-icon>\n                Hospital\n            </button>\n\n            <button ion-item>\n                <ion-icon name="cafe" item-start></ion-icon>\n                Cafe\n            </button>\n\n            <button ion-item>\n                <ion-icon name="paw" item-start></ion-icon>\n                Dog Park\n            </button>\n\n            <button ion-item>\n                <ion-icon name="beer" item-start></ion-icon>\n                Pub\n            </button>\n\n            <button ion-item>\n                <ion-icon name="planet" item-start></ion-icon>\n                Space\n            </button>\n        </ion-list>\n    </ion-card>\n\n    <ion-card>\n        <img src="assets/imgs/nin-live.png"/>\n        <ion-card-content>\n            <ion-card-title>\n                Nine Inch Nails Live\n            </ion-card-title>\n            <p>\n                The most popular industrial group ever, and largely\n                responsible for bringing the music to a mass audience.\n            </p>\n        </ion-card-content>\n    </ion-card>\n\n    <ion-card class="card-background-page">\n        <img src="assets/imgs/card-saopaolo.png"/>\n        <div class="card-title">São Paulo</div>\n        <div class="card-subtitle">41 Listings</div>\n    </ion-card>\n\n    <ion-card>\n\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/marty-avatar.png">\n            </ion-avatar>\n            <h2>Marty McFly</h2>\n            <p>November 5, 1955</p>\n        </ion-item>\n\n        <img src="assets/imgs/advance-card-bttf.png">\n\n        <ion-card-content>\n            <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>\n        </ion-card-content>\n\n        <ion-row>\n            <ion-col>\n                <button ion-button icon-start clear small>\n                    <ion-icon name="thumbs-up"></ion-icon>\n                    <div>12 Likes</div>\n                </button>\n            </ion-col>\n            <ion-col>\n                <button ion-button icon-start clear small>\n                    <ion-icon name="text"></ion-icon>\n                    <div>4 Comments</div>\n                </button>\n            </ion-col>\n            <ion-col center text-center>\n                <ion-note>\n                    11h ago\n                </ion-note>\n            </ion-col>\n        </ion-row>\n\n    </ion-card>\n\n    <ion-card>\n\n        <img src="assets/imgs/advance-card-map-madison.png">\n        <ion-fab right top>\n            <button ion-fab>\n                <ion-icon name="pin"></ion-icon>\n            </button>\n        </ion-fab>\n\n        <ion-item>\n            <ion-icon name="football" item-start large></ion-icon>\n            <h2>Museum of Football</h2>\n            <p>11 N. Way St, Madison, WI 53703</p>\n        </ion-item>\n\n        <ion-item>\n            <ion-icon name="wine" item-start large ></ion-icon>\n            <h2>Institute of Fine Cocktails</h2>\n            <p>14 S. Hop Avenue, Madison, WI 53703</p>\n        </ion-item>\n\n        <ion-item>\n            <span item-start>18 min</span>\n            <span item-start>(2.6 mi)</span>\n            <button ion-button icon-start clear item-end>\n                <ion-icon name="navigate"></ion-icon>\n                Start\n            </button>\n        </ion-item>\n\n    </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/card/card.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/card/card.html"*/'<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>Basic Cards</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="cards-bg">\n\n    <ion-card>\n\n        <ion-card-content>\n            This is just your basic card with some text to boot. Like it? Keep scrolling...\n        </ion-card-content>\n\n    </ion-card>\n\n    <ion-card>\n        <ion-card-header>\n            Header\n        </ion-card-header>\n        <ion-card-content>\n            The British use the term "header", but the American term "head-shot" the English simply refuse to adopt.\n        </ion-card-content>\n    </ion-card>\n\n    <ion-card>\n        <ion-card-header>\n            Explore Nearby\n        </ion-card-header>\n\n        <ion-list>\n            <button ion-item>\n                <ion-icon name="cart" item-start></ion-icon>\n                Shopping\n            </button>\n\n            <button ion-item>\n                <ion-icon name="medical" item-start></ion-icon>\n                Hospital\n            </button>\n\n            <button ion-item>\n                <ion-icon name="cafe" item-start></ion-icon>\n                Cafe\n            </button>\n\n            <button ion-item>\n                <ion-icon name="paw" item-start></ion-icon>\n                Dog Park\n            </button>\n\n            <button ion-item>\n                <ion-icon name="beer" item-start></ion-icon>\n                Pub\n            </button>\n\n            <button ion-item>\n                <ion-icon name="planet" item-start></ion-icon>\n                Space\n            </button>\n        </ion-list>\n    </ion-card>\n\n    <ion-card>\n        <img src="assets/imgs/nin-live.png"/>\n        <ion-card-content>\n            <ion-card-title>\n                Nine Inch Nails Live\n            </ion-card-title>\n            <p>\n                The most popular industrial group ever, and largely\n                responsible for bringing the music to a mass audience.\n            </p>\n        </ion-card-content>\n    </ion-card>\n\n    <ion-card class="card-background-page">\n        <img src="assets/imgs/card-saopaolo.png"/>\n        <div class="card-title">São Paulo</div>\n        <div class="card-subtitle">41 Listings</div>\n    </ion-card>\n\n    <ion-card>\n\n        <ion-item>\n            <ion-avatar item-start>\n                <img src="assets/imgs/marty-avatar.png">\n            </ion-avatar>\n            <h2>Marty McFly</h2>\n            <p>November 5, 1955</p>\n        </ion-item>\n\n        <img src="assets/imgs/advance-card-bttf.png">\n\n        <ion-card-content>\n            <p>Wait a minute. Wait a minute, Doc. Uhhh... Are you telling me that you built a time machine... out of a DeLorean?! Whoa. This is heavy.</p>\n        </ion-card-content>\n\n        <ion-row>\n            <ion-col>\n                <button ion-button icon-start clear small>\n                    <ion-icon name="thumbs-up"></ion-icon>\n                    <div>12 Likes</div>\n                </button>\n            </ion-col>\n            <ion-col>\n                <button ion-button icon-start clear small>\n                    <ion-icon name="text"></ion-icon>\n                    <div>4 Comments</div>\n                </button>\n            </ion-col>\n            <ion-col center text-center>\n                <ion-note>\n                    11h ago\n                </ion-note>\n            </ion-col>\n        </ion-row>\n\n    </ion-card>\n\n    <ion-card>\n\n        <img src="assets/imgs/advance-card-map-madison.png">\n        <ion-fab right top>\n            <button ion-fab>\n                <ion-icon name="pin"></ion-icon>\n            </button>\n        </ion-fab>\n\n        <ion-item>\n            <ion-icon name="football" item-start large></ion-icon>\n            <h2>Museum of Football</h2>\n            <p>11 N. Way St, Madison, WI 53703</p>\n        </ion-item>\n\n        <ion-item>\n            <ion-icon name="wine" item-start large ></ion-icon>\n            <h2>Institute of Fine Cocktails</h2>\n            <p>14 S. Hop Avenue, Madison, WI 53703</p>\n        </ion-item>\n\n        <ion-item>\n            <span item-start>18 min</span>\n            <span item-start>(2.6 mi)</span>\n            <button ion-button icon-start clear item-end>\n                <ion-icon name="navigate"></ion-icon>\n                Start\n            </button>\n        </ion-item>\n\n    </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/card/card.html"*/
         })
     ], CardPage);
     return CardPage;
@@ -415,9 +415,56 @@ var FabPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return GesturePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var GesturePage = /** @class */ (function () {
+    function GesturePage() {
+        this.press = 0;
+        this.pan = 0;
+        this.swipe = 0;
+        this.tap = 0;
+    }
+    GesturePage.prototype.pressEvent = function (e) {
+        this.press++;
+    };
+    GesturePage.prototype.panEvent = function (e) {
+        this.pan++;
+    };
+    GesturePage.prototype.swipeEvent = function (e) {
+        this.swipe++;
+    };
+    GesturePage.prototype.tapEvent = function (e) {
+        this.tap++;
+    };
+    GesturePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/gesture/gesture.html"*/'<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>Events</ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n    <ion-card (tap)="tapEvent($event)">\n        <ion-item>\n            Tapped: {{tap}} times\n        </ion-item>\n    </ion-card>\n\n    <ion-card (press)="pressEvent($event)">\n        <ion-item>\n            Pressed: {{press}} times\n        </ion-item>\n    </ion-card>\n\n    <ion-card (pan)="panEvent($event)">\n        <ion-item>\n            Panned: {{pan}} times\n        </ion-item>\n    </ion-card>\n\n    <ion-card (swipe)="swipeEvent($event)">\n        <ion-item>\n            Swiped: {{swipe}} times\n        </ion-item>\n    </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/gesture/gesture.html"*/
+        }),
+        __metadata("design:paramtypes", [])
+    ], GesturePage);
+    return GesturePage;
+}());
+
+//# sourceMappingURL=gesture.js.map
+
+/***/ }),
+
+/***/ 322:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(322);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(344);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(323);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(345);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -425,7 +472,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 344:
+/***/ 345:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -433,19 +480,21 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(31);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(32);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(387);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(388);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(194);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(318);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_card_card__ = __webpack_require__(319);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_fab_fab__ = __webpack_require__(320);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__ = __webpack_require__(190);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__ = __webpack_require__(193);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_gesture_gesture__ = __webpack_require__(321);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__ = __webpack_require__(190);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__ = __webpack_require__(193);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -466,7 +515,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
                 __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_card_card__["a" /* CardPage */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_fab_fab__["a" /* FabPage */]
+                __WEBPACK_IMPORTED_MODULE_7__pages_fab_fab__["a" /* FabPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_gesture_gesture__["a" /* GesturePage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -480,11 +530,12 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
                 __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */],
                 __WEBPACK_IMPORTED_MODULE_6__pages_card_card__["a" /* CardPage */],
-                __WEBPACK_IMPORTED_MODULE_7__pages_fab_fab__["a" /* FabPage */]
+                __WEBPACK_IMPORTED_MODULE_7__pages_fab_fab__["a" /* FabPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_gesture_gesture__["a" /* GesturePage */]
             ],
             providers: [
-                __WEBPACK_IMPORTED_MODULE_8__ionic_native_status_bar__["a" /* StatusBar */],
-                __WEBPACK_IMPORTED_MODULE_9__ionic_native_splash_screen__["a" /* SplashScreen */],
+                __WEBPACK_IMPORTED_MODULE_9__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_10__ionic_native_splash_screen__["a" /* SplashScreen */],
                 { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["d" /* IonicErrorHandler */] }
             ]
         })
@@ -496,7 +547,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 387:
+/***/ 388:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -509,6 +560,7 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(318);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_card_card__ = __webpack_require__(319);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_fab_fab__ = __webpack_require__(320);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_gesture_gesture__ = __webpack_require__(321);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -518,6 +570,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -538,7 +591,8 @@ var MyApp = /** @class */ (function () {
             { title: 'Home', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */] },
             { title: 'List', component: __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */] },
             { title: 'Card', component: __WEBPACK_IMPORTED_MODULE_6__pages_card_card__["a" /* CardPage */] },
-            { title: 'Fab', component: __WEBPACK_IMPORTED_MODULE_7__pages_fab_fab__["a" /* FabPage */] }
+            { title: 'Fab', component: __WEBPACK_IMPORTED_MODULE_7__pages_fab_fab__["a" /* FabPage */] },
+            { title: 'Gesture', component: __WEBPACK_IMPORTED_MODULE_8__pages_gesture_gesture__["a" /* GesturePage */] }
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -571,7 +625,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 396:
+/***/ 397:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -836,9 +890,9 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 396;
+webpackContext.id = 397;
 
 /***/ })
 
-},[321]);
+},[322]);
 //# sourceMappingURL=main.js.map

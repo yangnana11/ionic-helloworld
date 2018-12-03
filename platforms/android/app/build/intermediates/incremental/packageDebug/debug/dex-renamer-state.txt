@@ -1,4 +1,4 @@
-#Mon Dec 03 15:10:30 KST 2018
+#Mon Dec 03 15:21:27 KST 2018
 base.0=/Users/nana/Documents/own_studying/ionic/ionic-helloworld/platforms/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex

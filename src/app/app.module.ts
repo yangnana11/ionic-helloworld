@@ -7,6 +7,7 @@ import { HomePage } from '../pages/home/home'
 import { ListPage } from '../pages/list/list'
 import { CardPage } from '../pages/card/card'
 import { FabPage } from '../pages/fab/fab'
+import { GesturePage } from '../pages/gesture/gesture';
 
 import { StatusBar } from '@ionic-native/status-bar'
 import { SplashScreen } from '@ionic-native/splash-screen'
@@ -17,7 +18,8 @@ import { SplashScreen } from '@ionic-native/splash-screen'
         HomePage,
         ListPage,
         CardPage,
-        FabPage
+        FabPage,
+        GesturePage
     ],
     imports: [
         BrowserModule,
@@ -29,7 +31,8 @@ import { SplashScreen } from '@ionic-native/splash-screen'
         HomePage,
         ListPage,
         CardPage,
-        FabPage
+        FabPage,
+        GesturePage
     ],
     providers: [
         StatusBar,
