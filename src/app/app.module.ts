@@ -12,6 +12,7 @@ import { GridPage } from '../pages/grid/grid'
 
 import { StatusBar } from '@ionic-native/status-bar'
 import { SplashScreen } from '@ionic-native/splash-screen'
+import { InputPage } from '../pages/input/input'
 
 @NgModule({
     declarations: [
@@ -21,7 +22,8 @@ import { SplashScreen } from '@ionic-native/splash-screen'
         CardPage,
         FabPage,
         GesturePage,
-        GridPage
+        GridPage,
+        InputPage
     ],
     imports: [
         BrowserModule,
@@ -35,7 +37,8 @@ import { SplashScreen } from '@ionic-native/splash-screen'
         CardPage,
         FabPage,
         GesturePage,
-        GridPage
+        GridPage,
+        InputPage
     ],
     providers: [
         StatusBar,

@@ -9,6 +9,7 @@ import { CardPage } from '../pages/card/card'
 import { FabPage } from '../pages/fab/fab'
 import { GesturePage } from '../pages/gesture/gesture'
 import { GridPage } from '../pages/grid/grid'
+import { InputPage } from '../pages/input/input'
 
 @Component({
     templateUrl: 'app.html'
@@ -30,7 +31,8 @@ export class MyApp {
             {title: 'Card', component: CardPage},
             {title: 'Fab', component: FabPage},
             {title: 'Gesture', component: GesturePage},
-            {title: 'Grid', component: GridPage}
+            {title: 'Grid', component: GridPage},
+            {title: 'Input', component: InputPage}
         ]
 
     }
