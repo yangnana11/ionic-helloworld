@@ -2,6 +2,7 @@ import { Component } from '@angular/core'
 import { NavController } from 'ionic-angular'
 import { Platform, ActionSheetController } from 'ionic-angular'
 import { AlertController } from 'ionic-angular'
+import { LoadingController } from 'ionic-angular';
 import moment from 'moment';
 
 @Component({
@@ -27,8 +28,19 @@ export class HomePage {
         public navCtrl: NavController,
         public platform: Platform,
         public actionsheetCtrl: ActionSheetController,
-        public alertCtrl: AlertController
-    ) { }
+        public alertCtrl: AlertController,
+        public loadingCtrl: LoadingController
+    ) {
+        this.presentLoading();
+    }
+
+    presentLoading() {
+        this.loadingCtrl.create({
+            content: 'Please wait...',
+            duration: 3000,
+            dismissOnPageChange: true
+        }).present();
+    }
 
     openActionSheet () {
         let actionSheet = this.actionsheetCtrl.create({
