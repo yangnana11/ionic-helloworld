@@ -2,6 +2,7 @@ import { Component } from '@angular/core'
 import { NavController } from 'ionic-angular'
 import { Platform, ActionSheetController } from 'ionic-angular'
 import { AlertController } from 'ionic-angular'
+import moment from 'moment';
 
 @Component({
     selector: 'page-home',
@@ -13,6 +14,13 @@ export class HomePage {
     testRadioResult;
     testCheckboxOpen: boolean;
     testCheckboxResult;
+
+    public event = {
+        month: moment().format('YYYY-MM-DD'),
+        timeStarts: moment().format('HH:mm'),
+        timeEnds: moment().format('YYYY-MM-DD')
+    }
+
 
     constructor (
         public navCtrl: NavController,
