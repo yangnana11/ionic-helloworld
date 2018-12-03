@@ -14,6 +14,7 @@ export class HomePage {
     testRadioResult;
     testCheckboxOpen: boolean;
     testCheckboxResult;
+    myIcon: string = "home";
 
     public event = {
         month: moment().format('YYYY-MM-DD'),
