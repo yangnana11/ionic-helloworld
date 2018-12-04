@@ -23,6 +23,8 @@ import { SearchPage } from '../pages/search/search'
 import { SegmentPage } from '../pages/segment/segment'
 import { SelectPage } from '../pages/select/select'
 import { SlidePage } from '../pages/slide/slide'
+import { TabPage } from '../pages/tab/tab'
+import { TabBasicContentPage } from '../pages/tab/tabBasicContent'
 
 @NgModule({
     declarations: [
@@ -43,7 +45,9 @@ import { SlidePage } from '../pages/slide/slide'
         SearchPage,
         SegmentPage,
         SelectPage,
-        SlidePage
+        SlidePage,
+        TabPage,
+        TabBasicContentPage
     ],
     imports: [
         BrowserModule,
@@ -68,7 +72,9 @@ import { SlidePage } from '../pages/slide/slide'
         SearchPage,
         SegmentPage,
         SelectPage,
-        SlidePage
+        SlidePage,
+        TabPage,
+        TabBasicContentPage
     ],
     providers: [
         StatusBar,
