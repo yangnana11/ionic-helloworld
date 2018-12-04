@@ -16,6 +16,7 @@ import { InputPage } from '../pages/input/input'
 import { ModalPage } from '../pages/modal/modal'
 import { PopoverPage } from '../pages/popover/popover'
 import { PoplistPage } from '../pages/popover/poplist'
+import { CheckPage } from '../pages/check/check'
 
 @NgModule({
     declarations: [
@@ -29,7 +30,8 @@ import { PoplistPage } from '../pages/popover/poplist'
         InputPage,
         ModalPage,
         PopoverPage,
-        PoplistPage
+        PoplistPage,
+        CheckPage
     ],
     imports: [
         BrowserModule,
@@ -47,7 +49,8 @@ import { PoplistPage } from '../pages/popover/poplist'
         InputPage,
         ModalPage,
         PopoverPage,
-        PoplistPage
+        PoplistPage,
+        CheckPage
     ],
     providers: [
         StatusBar,

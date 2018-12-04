@@ -11,6 +11,7 @@ import { GesturePage } from '../pages/gesture/gesture'
 import { GridPage } from '../pages/grid/grid'
 import { InputPage } from '../pages/input/input'
 import { PopoverPage } from '../pages/popover/popover'
+import { CheckPage } from '../pages/check/check'
 
 @Component({
     templateUrl: 'app.html'
@@ -28,9 +29,10 @@ export class MyApp {
         // used for an example of ngFor and navigation
         this.pages = [
             {title: 'Home', component: HomePage},
-            {title: 'List', component: ListPage},
             {title: 'Card', component: CardPage},
+            {title: 'Check', component: CheckPage},
             {title: 'Fab', component: FabPage},
+            {title: 'List', component: ListPage},
             {title: 'Gesture', component: GesturePage},
             {title: 'Grid', component: GridPage},
             {title: 'Input', component: InputPage},
