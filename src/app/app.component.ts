@@ -14,6 +14,7 @@ import { PopoverPage } from '../pages/popover/popover'
 import { CheckPage } from '../pages/check/check'
 import { RadioPage } from '../pages/radio/radio'
 import { RangePage } from '../pages/range/range'
+import { SearchPage } from '../pages/search/search'
 
 @Component({
     templateUrl: 'app.html'
@@ -40,7 +41,8 @@ export class MyApp {
             {title: 'List', component: ListPage},
             {title: 'Popover', component: PopoverPage},
             {title: 'Radio', component: RadioPage},
-            {title: 'Range', component: RangePage}
+            {title: 'Range', component: RangePage},
+            {title: 'Search', component: SearchPage}
         ]
 
     }
