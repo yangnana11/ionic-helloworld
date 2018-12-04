@@ -25,6 +25,7 @@ import { SelectPage } from '../pages/select/select'
 import { SlidePage } from '../pages/slide/slide'
 import { TabPage } from '../pages/tab/tab'
 import { TabBasicContentPage } from '../pages/tab/tabBasicContent'
+import { ToastPage } from '../pages/toast/toast'
 
 @NgModule({
     declarations: [
@@ -47,7 +48,8 @@ import { TabBasicContentPage } from '../pages/tab/tabBasicContent'
         SelectPage,
         SlidePage,
         TabPage,
-        TabBasicContentPage
+        TabBasicContentPage,
+        ToastPage
     ],
     imports: [
         BrowserModule,
@@ -74,7 +76,8 @@ import { TabBasicContentPage } from '../pages/tab/tabBasicContent'
         SelectPage,
         SlidePage,
         TabPage,
-        TabBasicContentPage
+        TabBasicContentPage,
+        ToastPage
     ],
     providers: [
         StatusBar,

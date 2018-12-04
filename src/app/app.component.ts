@@ -19,6 +19,7 @@ import { SegmentPage } from '../pages/segment/segment'
 import { SelectPage } from '../pages/select/select'
 import { SlidePage } from '../pages/slide/slide'
 import { TabPage } from '../pages/tab/tab'
+import { ToastPage } from '../pages/toast/toast'
 
 @Component({
     templateUrl: 'app.html'
@@ -49,7 +50,8 @@ export class MyApp {
             {title: 'Search', component: SearchPage},
             {title: 'Segment', component: SegmentPage},
             {title: 'Select', component: SelectPage},
-            {title: 'Tab', component: TabPage}
+            {title: 'Tab', component: TabPage},
+            {title: 'Toast', component: ToastPage}
         ]
 
     }
