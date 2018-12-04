@@ -801,7 +801,7 @@ var RadioPage = /** @class */ (function () {
     function RadioPage() {
     }
     RadioPage = __decorate([
-        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/radio/radio.html"*/'<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>Radio</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-list radio-group>\n    <ion-list-header>\n        Language\n    </ion-list-header>\n\n    <ion-item>\n        <ion-label>Go</ion-label>\n        <ion-radio checked="true" value="go"></ion-radio>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Rust</ion-label>\n        <ion-radio value="rust"></ion-radio>\n    </ion-item>\n\n    <ion-item>\n        <ion-label>Python</ion-label>\n        <ion-radio value="python" disabled="true"></ion-radio>\n    </ion-item>\n</ion-list>\n'/*ion-inline-end:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/radio/radio.html"*/
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/radio/radio.html"*/'<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>Radio</ion-title>\n    </ion-navbar>\n</ion-header>\n<ion-content>\n    <ion-list radio-group>\n        <ion-list-header>\n            Language\n        </ion-list-header>\n\n        <ion-item>\n            <ion-label>Go</ion-label>\n            <ion-radio checked="true" value="go"></ion-radio>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Rust</ion-label>\n            <ion-radio value="rust"></ion-radio>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Python</ion-label>\n            <ion-radio value="python" disabled="true"></ion-radio>\n        </ion-item>\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/radio/radio.html"*/
         })
     ], RadioPage);
     return RadioPage;
@@ -815,9 +815,41 @@ var RadioPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return RangePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var RangePage = /** @class */ (function () {
+    function RangePage() {
+        this.brightness = 20;
+        this.contrast = 0;
+        this.warmth = 1300;
+        this.structure = { lower: 33, upper: 60 };
+        this.text = 0;
+    }
+    RangePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/range/range.html"*/'<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>\n            Ranges\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content class="outer-content">\n    <ion-list>\n        <ion-list-header>\n            Adjust Display\n        </ion-list-header>\n        <ion-item>\n            <ion-range [(ngModel)]="brightness">\n                <ion-icon range-left small name="sunny"></ion-icon>\n                <ion-icon range-right name="sunny"></ion-icon>\n            </ion-range>\n        </ion-item>\n        <ion-item>\n            <ion-range min="-200" max="200" pin="true" [(ngModel)]="contrast" color="secondary">\n                <ion-icon range-left small name="contrast"></ion-icon>\n                <ion-icon range-right name="contrast"></ion-icon>\n            </ion-range>\n        </ion-item>\n        <ion-item>\n            <ion-range dualKnobs="true" pin="true" [(ngModel)]="structure" color="dark">\n                <ion-icon range-left small name="brush"></ion-icon>\n                <ion-icon range-right name="brush"></ion-icon>\n            </ion-range>\n        </ion-item>\n        <ion-item>\n            <ion-range min="1000" max="2000" step="100" snaps="true" [(ngModel)]="warmth" color="danger">\n                <ion-icon range-left small color="danger" name="thermometer"></ion-icon>\n                <ion-icon range-right color="danger" name="thermometer"></ion-icon>\n            </ion-range>\n        </ion-item>\n    </ion-list>\n\n    <ion-list>\n        <ion-list-header>\n            Adjust Text\n        </ion-list-header>\n        <ion-item>\n            <ion-range min="-100" step="10" snaps="true" [(ngModel)]="text">\n                <ion-label range-left class="small-text">A</ion-label>\n                <ion-label range-right>A</ion-label>\n            </ion-range>\n        </ion-item>\n    </ion-list>\n</ion-content>\n'/*ion-inline-end:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/range/range.html"*/
+        })
+    ], RangePage);
+    return RangePage;
+}());
+
+//# sourceMappingURL=range.js.map
+
+/***/ }),
+
+/***/ 330:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(330);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(352);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(331);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(353);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -825,7 +857,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 352:
+/***/ 353:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -833,7 +865,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(16);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(395);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(396);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(195);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_card_card__ = __webpack_require__(320);
@@ -848,12 +880,14 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_popover_poplist__ = __webpack_require__(326);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_check_check__ = __webpack_require__(327);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_17__pages_radio_radio__ = __webpack_require__(328);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_range_range__ = __webpack_require__(329);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -890,7 +924,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_14__pages_popover_popover__["a" /* PopoverPage */],
                 __WEBPACK_IMPORTED_MODULE_15__pages_popover_poplist__["a" /* PoplistPage */],
                 __WEBPACK_IMPORTED_MODULE_16__pages_check_check__["a" /* CheckPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_radio_radio__["a" /* RadioPage */]
+                __WEBPACK_IMPORTED_MODULE_17__pages_radio_radio__["a" /* RadioPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_range_range__["a" /* RangePage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -912,7 +947,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_14__pages_popover_popover__["a" /* PopoverPage */],
                 __WEBPACK_IMPORTED_MODULE_15__pages_popover_poplist__["a" /* PoplistPage */],
                 __WEBPACK_IMPORTED_MODULE_16__pages_check_check__["a" /* CheckPage */],
-                __WEBPACK_IMPORTED_MODULE_17__pages_radio_radio__["a" /* RadioPage */]
+                __WEBPACK_IMPORTED_MODULE_17__pages_radio_radio__["a" /* RadioPage */],
+                __WEBPACK_IMPORTED_MODULE_18__pages_range_range__["a" /* RangePage */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__["a" /* StatusBar */],
@@ -928,7 +964,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 395:
+/***/ 396:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -947,6 +983,7 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__pages_popover_popover__ = __webpack_require__(325);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__pages_check_check__ = __webpack_require__(327);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__pages_radio_radio__ = __webpack_require__(328);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__pages_range_range__ = __webpack_require__(329);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -956,6 +993,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -988,7 +1026,8 @@ var MyApp = /** @class */ (function () {
             { title: 'Input', component: __WEBPACK_IMPORTED_MODULE_10__pages_input_input__["a" /* InputPage */] },
             { title: 'List', component: __WEBPACK_IMPORTED_MODULE_5__pages_list_list__["a" /* ListPage */] },
             { title: 'Popover', component: __WEBPACK_IMPORTED_MODULE_11__pages_popover_popover__["a" /* PopoverPage */] },
-            { title: 'Radio', component: __WEBPACK_IMPORTED_MODULE_13__pages_radio_radio__["a" /* RadioPage */] }
+            { title: 'Radio', component: __WEBPACK_IMPORTED_MODULE_13__pages_radio_radio__["a" /* RadioPage */] },
+            { title: 'Range', component: __WEBPACK_IMPORTED_MODULE_14__pages_range_range__["a" /* RangePage */] }
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -1021,7 +1060,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 404:
+/***/ 405:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -1286,9 +1325,9 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 404;
+webpackContext.id = 405;
 
 /***/ })
 
-},[329]);
+},[330]);
 //# sourceMappingURL=main.js.map

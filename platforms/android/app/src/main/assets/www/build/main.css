@@ -25831,3 +25831,11 @@ ion-navbar.toolbar {
 .popover-page .dot {
   border: 2px solid #ccc;
 }
+
+ion-list + ion-list {
+  margin-top: 0;
+}
+
+.small-text {
+  font-size: 10px;
+}

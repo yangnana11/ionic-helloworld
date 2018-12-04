@@ -18,6 +18,7 @@ import { PopoverPage } from '../pages/popover/popover'
 import { PoplistPage } from '../pages/popover/poplist'
 import { CheckPage } from '../pages/check/check'
 import { RadioPage } from '../pages/radio/radio'
+import { RangePage } from '../pages/range/range'
 
 @NgModule({
     declarations: [
@@ -33,7 +34,8 @@ import { RadioPage } from '../pages/radio/radio'
         PopoverPage,
         PoplistPage,
         CheckPage,
-        RadioPage
+        RadioPage,
+        RangePage
     ],
     imports: [
         BrowserModule,
@@ -53,7 +55,8 @@ import { RadioPage } from '../pages/radio/radio'
         PopoverPage,
         PoplistPage,
         CheckPage,
-        RadioPage
+        RadioPage,
+        RangePage
     ],
     providers: [
         StatusBar,
