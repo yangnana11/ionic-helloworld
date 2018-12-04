@@ -22,6 +22,7 @@ import { RangePage } from '../pages/range/range'
 import { SearchPage } from '../pages/search/search'
 import { SegmentPage } from '../pages/segment/segment'
 import { SelectPage } from '../pages/select/select'
+import { SlidePage } from '../pages/slide/slide'
 
 @NgModule({
     declarations: [
@@ -41,7 +42,8 @@ import { SelectPage } from '../pages/select/select'
         RangePage,
         SearchPage,
         SegmentPage,
-        SelectPage
+        SelectPage,
+        SlidePage
     ],
     imports: [
         BrowserModule,
@@ -65,7 +67,8 @@ import { SelectPage } from '../pages/select/select'
         RangePage,
         SearchPage,
         SegmentPage,
-        SelectPage
+        SelectPage,
+        SlidePage
     ],
     providers: [
         StatusBar,

@@ -17,6 +17,7 @@ import { RangePage } from '../pages/range/range'
 import { SearchPage } from '../pages/search/search'
 import { SegmentPage } from '../pages/segment/segment'
 import { SelectPage } from '../pages/select/select'
+import { SlidePage } from '../pages/slide/slide'
 
 @Component({
     templateUrl: 'app.html'
@@ -24,7 +25,7 @@ import { SelectPage } from '../pages/select/select'
 export class MyApp {
     @ViewChild(Nav) nav: Nav
 
-    rootPage: any = HomePage
+    rootPage: any = SlidePage
 
     pages: Array<{ title: string, component: any }>
 
