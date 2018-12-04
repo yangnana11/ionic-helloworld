@@ -98,11 +98,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		hXeBndPLf7cm3sjbeqi6bTiLBm8=
+		GGgjYx4VU4zNCsL+zw01Y0w/zwE=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		GYsURAOJKOC1xztkNLFRFJG4vw4=
+		Cl3NP5TAkZIqQifB3v8Ggyxt+38=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		rlXEfeB1HsMQNPlbYZzmPYUie0g=
+		pVDofcdAwygvuKU9ZhKYZhv3rxg=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		1VYOV8NrfjAMQycU82arkEPLHBc=
+		c1xiByMQoZ+4OBCUCj4Jk9+pURk=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -430,11 +430,11 @@
 		</data>
 		<key>www/build/main.js</key>
 		<data>
-		qshfBw4A48ckVQYgo4fzFwoaFkw=
+		jERdjL8sgXfBxiir0awpbBLR7go=
 		</data>
 		<key>www/build/main.js.map</key>
 		<data>
-		V+RlgADgXtewvu7jpuwKPcO5a2g=
+		eddqELZX2sgA0HumQ46Nrn8L8YM=
 		</data>
 		<key>www/build/polyfills.js</key>
 		<data>
@@ -446,11 +446,11 @@
 		</data>
 		<key>www/build/vendor.js</key>
 		<data>
-		SduzSvVREX/jXI2Pvoof1UKRqvI=
+		rP2XfG8HLWHMntLxy+qme5EDKQA=
 		</data>
 		<key>www/build/vendor.js.map</key>
 		<data>
-		wE5XoZIzkco2YBRRe/HBhSiXf+I=
+		OgaOO8e1sZcBH/pG1xCH9K6HJnI=
 		</data>
 		<key>www/cordova-js-src/exec.js</key>
 		<data>
@@ -776,22 +776,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			hXeBndPLf7cm3sjbeqi6bTiLBm8=
+			GGgjYx4VU4zNCsL+zw01Y0w/zwE=
 			</data>
 			<key>hash2</key>
 			<data>
-			j4kDJgH/uwNDtlRUJ3SVOVRX0Z3yINuhwrOSU1rF0Vg=
+			T2wWawTEjlvncE7lO+h4Q293oHYZTlmOzLfsu270hNM=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GYsURAOJKOC1xztkNLFRFJG4vw4=
+			Cl3NP5TAkZIqQifB3v8Ggyxt+38=
 			</data>
 			<key>hash2</key>
 			<data>
-			pOdkq31Y4VJIK7/iwCfIs/6K7+tDHcKkjRlREGGyBQ8=
+			/rgBzTQ+yHTLqtpoOxJA7w7GOyU9EPhvLdSaNdCgS2c=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -809,11 +809,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			rlXEfeB1HsMQNPlbYZzmPYUie0g=
+			pVDofcdAwygvuKU9ZhKYZhv3rxg=
 			</data>
 			<key>hash2</key>
 			<data>
-			KTCWCSrc2gRNKK5FojPLJihVXKh52qBcsVpQXLd6myU=
+			Hm2T99Mnet9oWh44qJ4i4eYX7QEVzNiupQeH7xkeOmI=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -996,11 +996,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1VYOV8NrfjAMQycU82arkEPLHBc=
+			c1xiByMQoZ+4OBCUCj4Jk9+pURk=
 			</data>
 			<key>hash2</key>
 			<data>
-			GV3jrA+j8PtQkQWZ7yQfpKPNyMGHUTzhvnQrTorcJD4=
+			GGpv0c56fxb36eFLFyn7DygxSQ0qJ2uhegqXBpHpPH4=
 			</data>
 		</dict>
 		<key>config.xml</key>
@@ -1667,22 +1667,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qshfBw4A48ckVQYgo4fzFwoaFkw=
+			jERdjL8sgXfBxiir0awpbBLR7go=
 			</data>
 			<key>hash2</key>
 			<data>
-			PZ/AWNgLHZ3t7bfnDjfHSZlaNNT609hcNSXjSoh3mTo=
+			CO0wvGsyC1GT3KmmOxXj7t857b3EMQREOwAbnyV/f90=
 			</data>
 		</dict>
 		<key>www/build/main.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			V+RlgADgXtewvu7jpuwKPcO5a2g=
+			eddqELZX2sgA0HumQ46Nrn8L8YM=
 			</data>
 			<key>hash2</key>
 			<data>
-			7rn7VMYHZ15/+7OvxFWOsAt9DQ+atq35bRLdDAzYTUs=
+			5GX4lLF6QO+dfbE8R4/fqZMnOmPbm691hw6hpxrj1/o=
 			</data>
 		</dict>
 		<key>www/build/polyfills.js</key>
@@ -1711,22 +1711,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SduzSvVREX/jXI2Pvoof1UKRqvI=
+			rP2XfG8HLWHMntLxy+qme5EDKQA=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jv3TGJWbztq9bpKYQNtalh3sikb+5KMLbGU/t5nTnnQ=
+			rHg5nnzVpzBBf3P34f3R1S7mnr0nqCMUkd/X9XicOKQ=
 			</data>
 		</dict>
 		<key>www/build/vendor.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			wE5XoZIzkco2YBRRe/HBhSiXf+I=
+			OgaOO8e1sZcBH/pG1xCH9K6HJnI=
 			</data>
 			<key>hash2</key>
 			<data>
-			7FWt30tDZdM18ctxjujQBPi1sHujK+tc55FiFDB4X0g=
+			fescpbXauMpgjpwNMI03E28F/hXf+DHq1RnUz79LnnQ=
 			</data>
 		</dict>
 		<key>www/cordova-js-src/exec.js</key>
