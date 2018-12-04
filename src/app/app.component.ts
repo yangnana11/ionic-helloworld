@@ -15,6 +15,7 @@ import { CheckPage } from '../pages/check/check'
 import { RadioPage } from '../pages/radio/radio'
 import { RangePage } from '../pages/range/range'
 import { SearchPage } from '../pages/search/search'
+import { SegmentPage } from '../pages/segment/segment'
 
 @Component({
     templateUrl: 'app.html'
@@ -42,7 +43,8 @@ export class MyApp {
             {title: 'Popover', component: PopoverPage},
             {title: 'Radio', component: RadioPage},
             {title: 'Range', component: RangePage},
-            {title: 'Search', component: SearchPage}
+            {title: 'Search', component: SearchPage},
+            {title: 'Segment', component: SegmentPage}
         ]
 
     }
