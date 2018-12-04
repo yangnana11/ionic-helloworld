@@ -10,6 +10,7 @@ import { FabPage } from '../pages/fab/fab'
 import { GesturePage } from '../pages/gesture/gesture'
 import { GridPage } from '../pages/grid/grid'
 import { InputPage } from '../pages/input/input'
+import { PopoverPage } from '../pages/popover/popover'
 
 @Component({
     templateUrl: 'app.html'
@@ -32,7 +33,8 @@ export class MyApp {
             {title: 'Fab', component: FabPage},
             {title: 'Gesture', component: GesturePage},
             {title: 'Grid', component: GridPage},
-            {title: 'Input', component: InputPage}
+            {title: 'Input', component: InputPage},
+            {title: 'Popover', component: PopoverPage}
         ]
 
     }
