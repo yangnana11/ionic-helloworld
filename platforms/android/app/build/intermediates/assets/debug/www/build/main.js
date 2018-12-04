@@ -1194,9 +1194,36 @@ var ToastPage = /** @class */ (function () {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return TogglePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var TogglePage = /** @class */ (function () {
+    function TogglePage() {
+    }
+    TogglePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/toggle/toggle.html"*/'<ion-header>\n    <ion-navbar>\n        <button ion-button menuToggle>\n            <ion-icon name="menu"></ion-icon>\n        </button>\n        <ion-title>\n            Toggles\n        </ion-title>\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n    <ion-list>\n        <ion-list-header>\n            Characters\n        </ion-list-header>\n\n        <ion-item>\n            <ion-label>Frodo Baggins</ion-label>\n            <ion-toggle value="foo" checked="true"></ion-toggle>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Sam</ion-label>\n            <ion-toggle color="energized"></ion-toggle>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Éowyn</ion-label>\n            <ion-toggle color="danger" checked="true"></ion-toggle>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Legolas</ion-label>\n            <ion-toggle color="royal" checked="true"></ion-toggle>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Gimli</ion-label>\n            <ion-toggle color="danger"></ion-toggle>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Saruman</ion-label>\n            <ion-toggle color="dark" checked="true"></ion-toggle>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Gandalf</ion-label>\n            <ion-toggle color="energized" checked="true"></ion-toggle>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Arwen</ion-label>\n            <ion-toggle color="royal"></ion-toggle>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Treebeard</ion-label>\n            <ion-toggle color="secondary" checked="true"></ion-toggle>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Boromir</ion-label>\n            <ion-toggle color="royal"></ion-toggle>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Gollum</ion-label>\n            <ion-toggle color="dark" checked="true"></ion-toggle>\n        </ion-item>\n\n        <ion-item>\n            <ion-label>Galadriel</ion-label>\n            <ion-toggle color="energized"></ion-toggle>\n        </ion-item>\n\n\n    </ion-list>\n\n</ion-content>\n'/*ion-inline-end:"/Users/nana/Documents/own_studying/ionic/ionic-helloworld/src/pages/toggle/toggle.html"*/
+        })
+    ], TogglePage);
+    return TogglePage;
+}());
+
+//# sourceMappingURL=toggle.js.map
+
+/***/ }),
+
+/***/ 338:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(338);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(360);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(339);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(361);
 
 
 Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
@@ -1204,7 +1231,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 
 /***/ }),
 
-/***/ 360:
+/***/ 361:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1212,7 +1239,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(32);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(12);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(404);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(100);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_list_list__ = __webpack_require__(101);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_card_card__ = __webpack_require__(102);
@@ -1235,12 +1262,14 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__pages_tab_tab__ = __webpack_require__(334);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__pages_tab_tabBasicContent__ = __webpack_require__(335);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__pages_toast_toast__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__pages_toggle_toggle__ = __webpack_require__(337);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
 
 
 
@@ -1293,7 +1322,8 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_22__pages_slide_slide__["a" /* SlidePage */],
                 __WEBPACK_IMPORTED_MODULE_23__pages_tab_tab__["a" /* TabPage */],
                 __WEBPACK_IMPORTED_MODULE_24__pages_tab_tabBasicContent__["a" /* TabBasicContentPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_toast_toast__["a" /* ToastPage */]
+                __WEBPACK_IMPORTED_MODULE_25__pages_toast_toast__["a" /* ToastPage */],
+                __WEBPACK_IMPORTED_MODULE_26__pages_toggle_toggle__["a" /* TogglePage */]
             ],
             imports: [
                 __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
@@ -1323,7 +1353,7 @@ var AppModule = /** @class */ (function () {
                 __WEBPACK_IMPORTED_MODULE_22__pages_slide_slide__["a" /* SlidePage */],
                 __WEBPACK_IMPORTED_MODULE_23__pages_tab_tab__["a" /* TabPage */],
                 __WEBPACK_IMPORTED_MODULE_24__pages_tab_tabBasicContent__["a" /* TabBasicContentPage */],
-                __WEBPACK_IMPORTED_MODULE_25__pages_toast_toast__["a" /* ToastPage */]
+                __WEBPACK_IMPORTED_MODULE_25__pages_toast_toast__["a" /* ToastPage */], __WEBPACK_IMPORTED_MODULE_26__pages_toggle_toggle__["a" /* TogglePage */]
             ],
             providers: [
                 __WEBPACK_IMPORTED_MODULE_10__ionic_native_status_bar__["a" /* StatusBar */],
@@ -1339,7 +1369,7 @@ var AppModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 403:
+/***/ 404:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1365,6 +1395,7 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__pages_slide_slide__ = __webpack_require__(333);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__pages_tab_tab__ = __webpack_require__(334);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__pages_toast_toast__ = __webpack_require__(336);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_21__pages_toggle_toggle__ = __webpack_require__(337);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -1374,6 +1405,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+
 
 
 
@@ -1419,7 +1451,8 @@ var MyApp = /** @class */ (function () {
             { title: 'Segment', component: __WEBPACK_IMPORTED_MODULE_16__pages_segment_segment__["a" /* SegmentPage */] },
             { title: 'Select', component: __WEBPACK_IMPORTED_MODULE_17__pages_select_select__["a" /* SelectPage */] },
             { title: 'Tab', component: __WEBPACK_IMPORTED_MODULE_19__pages_tab_tab__["a" /* TabPage */] },
-            { title: 'Toast', component: __WEBPACK_IMPORTED_MODULE_20__pages_toast_toast__["a" /* ToastPage */] }
+            { title: 'Toast', component: __WEBPACK_IMPORTED_MODULE_20__pages_toast_toast__["a" /* ToastPage */] },
+            { title: 'Toggle', component: __WEBPACK_IMPORTED_MODULE_21__pages_toggle_toggle__["a" /* TogglePage */] }
         ];
     }
     MyApp.prototype.initializeApp = function () {
@@ -1452,7 +1485,7 @@ var MyApp = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 412:
+/***/ 413:
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
@@ -1717,9 +1750,9 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 412;
+webpackContext.id = 413;
 
 /***/ })
 
-},[337]);
+},[338]);
 //# sourceMappingURL=main.js.map

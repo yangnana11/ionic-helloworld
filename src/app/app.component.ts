@@ -20,6 +20,7 @@ import { SelectPage } from '../pages/select/select'
 import { SlidePage } from '../pages/slide/slide'
 import { TabPage } from '../pages/tab/tab'
 import { ToastPage } from '../pages/toast/toast'
+import { TogglePage } from '../pages/toggle/toggle'
 
 @Component({
     templateUrl: 'app.html'
@@ -51,7 +52,8 @@ export class MyApp {
             {title: 'Segment', component: SegmentPage},
             {title: 'Select', component: SelectPage},
             {title: 'Tab', component: TabPage},
-            {title: 'Toast', component: ToastPage}
+            {title: 'Toast', component: ToastPage},
+            {title: 'Toggle', component: TogglePage}
         ]
 
     }

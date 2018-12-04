@@ -26,6 +26,7 @@ import { SlidePage } from '../pages/slide/slide'
 import { TabPage } from '../pages/tab/tab'
 import { TabBasicContentPage } from '../pages/tab/tabBasicContent'
 import { ToastPage } from '../pages/toast/toast'
+import { TogglePage } from '../pages/toggle/toggle'
 
 @NgModule({
     declarations: [
@@ -49,7 +50,8 @@ import { ToastPage } from '../pages/toast/toast'
         SlidePage,
         TabPage,
         TabBasicContentPage,
-        ToastPage
+        ToastPage,
+        TogglePage
     ],
     imports: [
         BrowserModule,
@@ -77,7 +79,7 @@ import { ToastPage } from '../pages/toast/toast'
         SlidePage,
         TabPage,
         TabBasicContentPage,
-        ToastPage
+        ToastPage, TogglePage
     ],
     providers: [
         StatusBar,
