@@ -98,11 +98,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		OZqXOU9ocZi7YSi6/gZb1n8QcJM=
+		hXeBndPLf7cm3sjbeqi6bTiLBm8=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		FnFUvaTWz/Fcz2msRVsiz+NQoBQ=
+		GYsURAOJKOC1xztkNLFRFJG4vw4=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		3iZJ7KP+R5HHnhWkmoddsuCvyRU=
+		rlXEfeB1HsMQNPlbYZzmPYUie0g=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		CpGafDB6vvWA9gq3jL/0NvwQrF8=
+		1VYOV8NrfjAMQycU82arkEPLHBc=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -336,6 +336,22 @@
 		<data>
 		nt5UnRZ5McjJ87hC2+IMaP2I47M=
 		</data>
+		<key>www/assets/imgs/ica-slidebox-img-1.png</key>
+		<data>
+		WqUvkmGFKFNBNILK2vKy58q1w8o=
+		</data>
+		<key>www/assets/imgs/ica-slidebox-img-2.png</key>
+		<data>
+		KvLMWGAtMN275/0t7vm3TLBCquo=
+		</data>
+		<key>www/assets/imgs/ica-slidebox-img-3.png</key>
+		<data>
+		vBOj0/46YVstd13BNEUkxgJ0SJY=
+		</data>
+		<key>www/assets/imgs/ica-slidebox-img-4.png</key>
+		<data>
+		oz4UpQPzdrHs9jQK+ln9SqsjDX0=
+		</data>
 		<key>www/assets/imgs/logo.png</key>
 		<data>
 		nzjF+TINPh/xuCdfiTCObIKicOE=
@@ -348,6 +364,54 @@
 		<data>
 		LoASFFJEaw1V5Rcq2V/2CjthMBU=
 		</data>
+		<key>www/assets/imgs/thumbnail-duckling-1.jpg</key>
+		<data>
+		at0P6wnwIZkwPQSZ2GsFvIKvpTE=
+		</data>
+		<key>www/assets/imgs/thumbnail-duckling-2.jpg</key>
+		<data>
+		FphqmA1bdrs66TKdPLOSqeW/REU=
+		</data>
+		<key>www/assets/imgs/thumbnail-duckling-3.jpg</key>
+		<data>
+		bnNBWIu+ToEI15VWifnz9LNeGbA=
+		</data>
+		<key>www/assets/imgs/thumbnail-duckling-4.jpg</key>
+		<data>
+		Vuho2sUkI9+ZW/o2Y29xVe5v2XU=
+		</data>
+		<key>www/assets/imgs/thumbnail-kitten-1.jpg</key>
+		<data>
+		UXyzlBlzwEsTWhkpPMq6uhV8r5Y=
+		</data>
+		<key>www/assets/imgs/thumbnail-kitten-2.jpg</key>
+		<data>
+		3KtA0axQ9ppqfzOfUo9k+tH1Ido=
+		</data>
+		<key>www/assets/imgs/thumbnail-kitten-3.jpg</key>
+		<data>
+		KNNbs60Z2691AcoG2iPmEy3O/oE=
+		</data>
+		<key>www/assets/imgs/thumbnail-kitten-4.jpg</key>
+		<data>
+		jooWM78OVa2y20XR//dmgsCc+A8=
+		</data>
+		<key>www/assets/imgs/thumbnail-puppy-1.jpg</key>
+		<data>
+		yNQV63syeZOkZXYOft8TMYoQpD0=
+		</data>
+		<key>www/assets/imgs/thumbnail-puppy-2.jpg</key>
+		<data>
+		OS7ad38oh8lx/Uwo76H51NzzLts=
+		</data>
+		<key>www/assets/imgs/thumbnail-puppy-3.jpg</key>
+		<data>
+		6uY/hTs0NeYcKs6m7p+vqqVTwhg=
+		</data>
+		<key>www/assets/imgs/thumbnail-puppy-4.jpg</key>
+		<data>
+		XVvMvZKqu8CCelxGwqEt0fV8QNc=
+		</data>
 		<key>www/assets/imgs/thumbnail-totoro.png</key>
 		<data>
 		q3/M816+3jz6Da3MimaqA593eQk=
@@ -358,7 +422,7 @@
 		</data>
 		<key>www/build/main.css</key>
 		<data>
-		Uy0EdTgAxCMQdnPurPkEnpZ/rv4=
+		MoJoU00bd2VuxxRxVep4oQJRYfA=
 		</data>
 		<key>www/build/main.css.map</key>
 		<data>
@@ -366,11 +430,11 @@
 		</data>
 		<key>www/build/main.js</key>
 		<data>
-		a673lK7kW5uSEjW2+w6nJnk9laA=
+		qshfBw4A48ckVQYgo4fzFwoaFkw=
 		</data>
 		<key>www/build/main.js.map</key>
 		<data>
-		iQ+SgfYKapcglQkdn5A+Xiwht/s=
+		V+RlgADgXtewvu7jpuwKPcO5a2g=
 		</data>
 		<key>www/build/polyfills.js</key>
 		<data>
@@ -382,11 +446,11 @@
 		</data>
 		<key>www/build/vendor.js</key>
 		<data>
-		uUA2lUkf1prSN4iXMbcUKqkUVqw=
+		SduzSvVREX/jXI2Pvoof1UKRqvI=
 		</data>
 		<key>www/build/vendor.js.map</key>
 		<data>
-		tXOfLTQ1KmO9cTz+vho3zBTA8+o=
+		wE5XoZIzkco2YBRRe/HBhSiXf+I=
 		</data>
 		<key>www/cordova-js-src/exec.js</key>
 		<data>
@@ -712,22 +776,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OZqXOU9ocZi7YSi6/gZb1n8QcJM=
+			hXeBndPLf7cm3sjbeqi6bTiLBm8=
 			</data>
 			<key>hash2</key>
 			<data>
-			s+zTO8igFkqfhHWiN2qlmKP72uX7aJFVXBnWOERoAbE=
+			j4kDJgH/uwNDtlRUJ3SVOVRX0Z3yINuhwrOSU1rF0Vg=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FnFUvaTWz/Fcz2msRVsiz+NQoBQ=
+			GYsURAOJKOC1xztkNLFRFJG4vw4=
 			</data>
 			<key>hash2</key>
 			<data>
-			TC/ZeQyGE5E0zaUbyM7WBEWZdo3+XIkFNmS6MZF/97E=
+			pOdkq31Y4VJIK7/iwCfIs/6K7+tDHcKkjRlREGGyBQ8=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -745,11 +809,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3iZJ7KP+R5HHnhWkmoddsuCvyRU=
+			rlXEfeB1HsMQNPlbYZzmPYUie0g=
 			</data>
 			<key>hash2</key>
 			<data>
-			7WixXU8SMW2nvSdu+nGZ2LuErCEsygyEDSQow7JsbuI=
+			KTCWCSrc2gRNKK5FojPLJihVXKh52qBcsVpQXLd6myU=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -932,11 +996,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			CpGafDB6vvWA9gq3jL/0NvwQrF8=
+			1VYOV8NrfjAMQycU82arkEPLHBc=
 			</data>
 			<key>hash2</key>
 			<data>
-			l1GC4loEorztlyO1MD3AwVaeK3P3yJgTaVHfXQitzZY=
+			GV3jrA+j8PtQkQWZ7yQfpKPNyMGHUTzhvnQrTorcJD4=
 			</data>
 		</dict>
 		<key>config.xml</key>
@@ -1346,6 +1410,50 @@
 			Ao3hiWgT12GjqFjfqZiQWxlx1rht6l3Hb0ELBbYLgMQ=
 			</data>
 		</dict>
+		<key>www/assets/imgs/ica-slidebox-img-1.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WqUvkmGFKFNBNILK2vKy58q1w8o=
+			</data>
+			<key>hash2</key>
+			<data>
+			RvEpAjfV4c1oKQ4PcV/CR/zURmQiEG7dv9LWnwBjTzU=
+			</data>
+		</dict>
+		<key>www/assets/imgs/ica-slidebox-img-2.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KvLMWGAtMN275/0t7vm3TLBCquo=
+			</data>
+			<key>hash2</key>
+			<data>
+			YjYKO0ugdG3e0BCBaEv6ABWEfNdloddIe4LW4u11EXQ=
+			</data>
+		</dict>
+		<key>www/assets/imgs/ica-slidebox-img-3.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			vBOj0/46YVstd13BNEUkxgJ0SJY=
+			</data>
+			<key>hash2</key>
+			<data>
+			/t0XyRh/OSZeJK4P00X43lONthFV7wYM1pDK2zpV6Qg=
+			</data>
+		</dict>
+		<key>www/assets/imgs/ica-slidebox-img-4.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oz4UpQPzdrHs9jQK+ln9SqsjDX0=
+			</data>
+			<key>hash2</key>
+			<data>
+			RYdDVZeOKu9rAGK/qQNghp4Iz+JeimByw4caZ8Xrk/8=
+			</data>
+		</dict>
 		<key>www/assets/imgs/logo.png</key>
 		<dict>
 			<key>hash</key>
@@ -1379,6 +1487,138 @@
 			M8DF2GsIw87cJhWBqS7x8FNrdfaGlNjauMwus6L/Bpo=
 			</data>
 		</dict>
+		<key>www/assets/imgs/thumbnail-duckling-1.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			at0P6wnwIZkwPQSZ2GsFvIKvpTE=
+			</data>
+			<key>hash2</key>
+			<data>
+			tdoMU9LVOvkBZrafoTdxOUlWITOCByuhVJ9yE4cUxus=
+			</data>
+		</dict>
+		<key>www/assets/imgs/thumbnail-duckling-2.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			FphqmA1bdrs66TKdPLOSqeW/REU=
+			</data>
+			<key>hash2</key>
+			<data>
+			lVXsYRviuXf0qAsbAUcoehJqF8ON40IGTScGe1f0WrQ=
+			</data>
+		</dict>
+		<key>www/assets/imgs/thumbnail-duckling-3.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bnNBWIu+ToEI15VWifnz9LNeGbA=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ey4kIRty+shmyYNvPb5Nh8F9AzUxM2SxiqwO4pcDPpU=
+			</data>
+		</dict>
+		<key>www/assets/imgs/thumbnail-duckling-4.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Vuho2sUkI9+ZW/o2Y29xVe5v2XU=
+			</data>
+			<key>hash2</key>
+			<data>
+			qqhrndzG4eNhTqUIQC3VPC2PAPC2NoG07l5/UhYC3rU=
+			</data>
+		</dict>
+		<key>www/assets/imgs/thumbnail-kitten-1.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			UXyzlBlzwEsTWhkpPMq6uhV8r5Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			PFndb4fLJAtPuj6/iW4T1tuhVFC6hgbqguneGcxa8Gc=
+			</data>
+		</dict>
+		<key>www/assets/imgs/thumbnail-kitten-2.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3KtA0axQ9ppqfzOfUo9k+tH1Ido=
+			</data>
+			<key>hash2</key>
+			<data>
+			yLHjj8Nbf5dDwOltztXDCgZ7uWaNXXtXPgFWPfZmKSk=
+			</data>
+		</dict>
+		<key>www/assets/imgs/thumbnail-kitten-3.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			KNNbs60Z2691AcoG2iPmEy3O/oE=
+			</data>
+			<key>hash2</key>
+			<data>
+			/b9O+L8fhXsDtSnacf3SVjDZJwLDrb6tDTi5W9M9egE=
+			</data>
+		</dict>
+		<key>www/assets/imgs/thumbnail-kitten-4.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jooWM78OVa2y20XR//dmgsCc+A8=
+			</data>
+			<key>hash2</key>
+			<data>
+			1OnVy5urVrKY1C8ywt1kn5Kjb9hJQ5PO0/oyodX/M3U=
+			</data>
+		</dict>
+		<key>www/assets/imgs/thumbnail-puppy-1.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			yNQV63syeZOkZXYOft8TMYoQpD0=
+			</data>
+			<key>hash2</key>
+			<data>
+			/MIVPKlFXwR4AwY5GJ0EE6C+p3KQ48rj+i5xAa5YvUw=
+			</data>
+		</dict>
+		<key>www/assets/imgs/thumbnail-puppy-2.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OS7ad38oh8lx/Uwo76H51NzzLts=
+			</data>
+			<key>hash2</key>
+			<data>
+			yIygLrYV2ty/VLYObMHWLxs1fFW/7lvVQo+00h7hp5o=
+			</data>
+		</dict>
+		<key>www/assets/imgs/thumbnail-puppy-3.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6uY/hTs0NeYcKs6m7p+vqqVTwhg=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZxCxwaOPjHyWM7mw0adGFZh/cM7GA/MC1UPYQQ7bTb0=
+			</data>
+		</dict>
+		<key>www/assets/imgs/thumbnail-puppy-4.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XVvMvZKqu8CCelxGwqEt0fV8QNc=
+			</data>
+			<key>hash2</key>
+			<data>
+			u7j5t0Ned/KTcj50oVjRoE9IAJASl9jUvj4Jed+Lf4Q=
+			</data>
+		</dict>
 		<key>www/assets/imgs/thumbnail-totoro.png</key>
 		<dict>
 			<key>hash</key>
@@ -1405,11 +1645,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Uy0EdTgAxCMQdnPurPkEnpZ/rv4=
+			MoJoU00bd2VuxxRxVep4oQJRYfA=
 			</data>
 			<key>hash2</key>
 			<data>
-			bV5thLP5FiHXfg5L4GogcpRFeup0Jm2+2uUrOJoQ9bE=
+			k8ClTyzbUAcst91LXIA+SLPXieHQc0qkVBlDvoJTKrM=
 			</data>
 		</dict>
 		<key>www/build/main.css.map</key>
@@ -1427,22 +1667,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			a673lK7kW5uSEjW2+w6nJnk9laA=
+			qshfBw4A48ckVQYgo4fzFwoaFkw=
 			</data>
 			<key>hash2</key>
 			<data>
-			jlAjOka2utMgHEG8fov3gwVjOpGYPbEV4zxHVlM9e6c=
+			PZ/AWNgLHZ3t7bfnDjfHSZlaNNT609hcNSXjSoh3mTo=
 			</data>
 		</dict>
 		<key>www/build/main.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			iQ+SgfYKapcglQkdn5A+Xiwht/s=
+			V+RlgADgXtewvu7jpuwKPcO5a2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			FDlQNW4Ct28y7+bM6RDrU7Ne81DX/di3OIUM/pdKaOw=
+			7rn7VMYHZ15/+7OvxFWOsAt9DQ+atq35bRLdDAzYTUs=
 			</data>
 		</dict>
 		<key>www/build/polyfills.js</key>
@@ -1471,22 +1711,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uUA2lUkf1prSN4iXMbcUKqkUVqw=
+			SduzSvVREX/jXI2Pvoof1UKRqvI=
 			</data>
 			<key>hash2</key>
 			<data>
-			8tAe5VI5pljyafppMCZxZi+EJIOllGvr21NkZ+Br0r0=
+			Jv3TGJWbztq9bpKYQNtalh3sikb+5KMLbGU/t5nTnnQ=
 			</data>
 		</dict>
 		<key>www/build/vendor.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tXOfLTQ1KmO9cTz+vho3zBTA8+o=
+			wE5XoZIzkco2YBRRe/HBhSiXf+I=
 			</data>
 			<key>hash2</key>
 			<data>
-			Rjpp7asjyllmf37Rib4ZbAmrqxzsHSfy74GuBmH+ock=
+			7FWt30tDZdM18ctxjujQBPi1sHujK+tc55FiFDB4X0g=
 			</data>
 		</dict>
 		<key>www/cordova-js-src/exec.js</key>

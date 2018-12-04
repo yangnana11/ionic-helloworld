@@ -6,6 +6,7 @@ import { LoadingController } from 'ionic-angular';
 import moment from 'moment';
 import { ModalPage } from '../modal/modal'
 import { ListPage } from '../list/list'
+import { SearchToolbarPage } from '../searchToolbar/search'
 
 @Component({
     selector: 'page-home',
@@ -291,6 +292,12 @@ export class HomePage {
         //push another page onto the history stack
         //causing the nav controller to animate the new page in
         this.navCtrl.push(ListPage);
+    }
+
+    search() {
+        //push another page onto the history stack
+        //causing the nav controller to animate the new page in
+        this.navCtrl.setRoot(SearchToolbarPage);
     }
 
 }
