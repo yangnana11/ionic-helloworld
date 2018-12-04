@@ -1,9 +1,10 @@
 import { Component } from '@angular/core'
 import { NavController } from 'ionic-angular'
-import { Platform, ActionSheetController } from 'ionic-angular'
+import { ModalController, Platform, ActionSheetController } from 'ionic-angular'
 import { AlertController } from 'ionic-angular'
 import { LoadingController } from 'ionic-angular';
 import moment from 'moment';
+import { ModalPage } from '../modal/modal'
 
 @Component({
     selector: 'page-home',
@@ -29,7 +30,8 @@ export class HomePage {
         public platform: Platform,
         public actionsheetCtrl: ActionSheetController,
         public alertCtrl: AlertController,
-        public loadingCtrl: LoadingController
+        public loadingCtrl: LoadingController,
+        public modalCtrl: ModalController
     ) {
         this.presentLoading();
     }
@@ -277,6 +279,11 @@ export class HomePage {
         alert.present().then(() => {
             this.testCheckboxOpen = true;
         });
+    }
+
+    openModal(characterNum) {
+        let modal = this.modalCtrl.create(ModalPage, characterNum);
+        modal.present();
     }
 
 }

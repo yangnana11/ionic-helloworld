@@ -98,11 +98,11 @@
 		</data>
 		<key>Assets.car</key>
 		<data>
-		TbrAHMx+Mk4KDaafV0eyut+Zcb8=
+		55INrT6Qwa0lBpcXwWNwr9CUkgo=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		hdc6FgVMOvy/MnYBMztt4BnEiyg=
+		vadhmij1VI8Xtjh+Zxolt2TtgUI=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		AubWg00arT/mJi7+CzcbH0yhfS4=
+		cWUs6Qk3KUysrRJVkM5Y5quZ0Lg=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -182,7 +182,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		A0P4AaCYtLXHuHatR+2Mozuy9NI=
+		typ2uyL88livucFEAhvEbSZYu74=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -304,6 +304,22 @@
 		<data>
 		ylUrepg1goaqtKHVvCHM2FNGwsw=
 		</data>
+		<key>www/assets/imgs/avatar-frodo.jpg</key>
+		<data>
+		PBiDel5clWE1mSAUc5B1ZbV/YFE=
+		</data>
+		<key>www/assets/imgs/avatar-gollum.jpg</key>
+		<data>
+		sfSSY++XUKj2+RE8EC22lPJqIvc=
+		</data>
+		<key>www/assets/imgs/avatar-samwise.jpg</key>
+		<data>
+		5M+Vb09OfLKcOIjCTR0hxs3kThI=
+		</data>
+		<key>www/assets/imgs/avatar-ts-woody.png</key>
+		<data>
+		wbaKegcKDt5bdBHrWhLrf2Esx2w=
+		</data>
 		<key>www/assets/imgs/card-amsterdam.png</key>
 		<data>
 		gzVlgJmGXF3VtJNyQGOJbHXfkBw=
@@ -332,6 +348,10 @@
 		<data>
 		LoASFFJEaw1V5Rcq2V/2CjthMBU=
 		</data>
+		<key>www/assets/imgs/thumbnail-totoro.png</key>
+		<data>
+		q3/M816+3jz6Da3MimaqA593eQk=
+		</data>
 		<key>www/assets/js/moment.js</key>
 		<data>
 		hWVz7CBo7Yzp9H33lSK+ReRPF2M=
@@ -346,11 +366,11 @@
 		</data>
 		<key>www/build/main.js</key>
 		<data>
-		Cq85a8JI81flH02Y0tg3RAGiY80=
+		k094mAxwhN3oURrZfm7CYnIugeY=
 		</data>
 		<key>www/build/main.js.map</key>
 		<data>
-		lSZg6krM4sEkGhJbPrWoZZYkifc=
+		RYvO/F/DNyYgUKNxMmb6NqCh+7E=
 		</data>
 		<key>www/build/polyfills.js</key>
 		<data>
@@ -362,11 +382,11 @@
 		</data>
 		<key>www/build/vendor.js</key>
 		<data>
-		OcYbphCK3ot/G57MiizOLARmBSo=
+		p1mlfkH66sAakcb/FMY7QHn4irc=
 		</data>
 		<key>www/build/vendor.js.map</key>
 		<data>
-		ViWz0iVC2bsByM74wM2d2m4S8zQ=
+		DxS+QeCShO+DX3xrYgzkC7RbdQA=
 		</data>
 		<key>www/cordova-js-src/exec.js</key>
 		<data>
@@ -692,22 +712,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TbrAHMx+Mk4KDaafV0eyut+Zcb8=
+			55INrT6Qwa0lBpcXwWNwr9CUkgo=
 			</data>
 			<key>hash2</key>
 			<data>
-			AhAMQAYKYwwomHPQ7pr3H72QpVAV49ISCRjrsMN2YCA=
+			fcHadSDw9SEnXIVl8Ds5xOskiyGN0i45xQeJm0kQ1R4=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			hdc6FgVMOvy/MnYBMztt4BnEiyg=
+			vadhmij1VI8Xtjh+Zxolt2TtgUI=
 			</data>
 			<key>hash2</key>
 			<data>
-			BrdIeIdHeoxqVI0wdJT4ZZ/D3hdxsDYmh1YbTLHh3+Y=
+			YmAzptqLNB3k4WiLP/D4LyWyuSp+mrrB6vFj/89V/qc=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -725,11 +745,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AubWg00arT/mJi7+CzcbH0yhfS4=
+			cWUs6Qk3KUysrRJVkM5Y5quZ0Lg=
 			</data>
 			<key>hash2</key>
 			<data>
-			9yPKCcOHe5w3g1coMIYF09HS19gBYbaYae6tQlBU1fg=
+			do2c3FUfpP7JoTB5+wA/7nQdWZIt5egla4yeXpoSeds=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -912,11 +932,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			A0P4AaCYtLXHuHatR+2Mozuy9NI=
+			typ2uyL88livucFEAhvEbSZYu74=
 			</data>
 			<key>hash2</key>
 			<data>
-			dHm10ySd5cuH9uDwYSCWiF1nHwV3EZmprFYUubyvaiE=
+			dsBx9AzhMhwlYgwu+wH7d5JGBCK2/0Vj5olR1OI1FwE=
 			</data>
 		</dict>
 		<key>config.xml</key>
@@ -1238,6 +1258,50 @@
 			6vviNYOSAtqdDe0NFw7aAw0EMXqjhqhH2FsL32DnVH8=
 			</data>
 		</dict>
+		<key>www/assets/imgs/avatar-frodo.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PBiDel5clWE1mSAUc5B1ZbV/YFE=
+			</data>
+			<key>hash2</key>
+			<data>
+			iSZO4vbjkXyYY/w60JaTdJY8h8nnjQK9U/GcqvvKsrI=
+			</data>
+		</dict>
+		<key>www/assets/imgs/avatar-gollum.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sfSSY++XUKj2+RE8EC22lPJqIvc=
+			</data>
+			<key>hash2</key>
+			<data>
+			AXRdeIG+32Kd/5Khd/Q0VWdC3pHyPOfsNl7iAdXYe0A=
+			</data>
+		</dict>
+		<key>www/assets/imgs/avatar-samwise.jpg</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			5M+Vb09OfLKcOIjCTR0hxs3kThI=
+			</data>
+			<key>hash2</key>
+			<data>
+			2Hvl9XCeusbt2ESsIPitWXNB28y28OvI/tXKzdzEcqU=
+			</data>
+		</dict>
+		<key>www/assets/imgs/avatar-ts-woody.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wbaKegcKDt5bdBHrWhLrf2Esx2w=
+			</data>
+			<key>hash2</key>
+			<data>
+			Tl49vdboVF/1aGUBJDH40k0+MFaMvs9qe9eyIien97Y=
+			</data>
+		</dict>
 		<key>www/assets/imgs/card-amsterdam.png</key>
 		<dict>
 			<key>hash</key>
@@ -1315,6 +1379,17 @@
 			M8DF2GsIw87cJhWBqS7x8FNrdfaGlNjauMwus6L/Bpo=
 			</data>
 		</dict>
+		<key>www/assets/imgs/thumbnail-totoro.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			q3/M816+3jz6Da3MimaqA593eQk=
+			</data>
+			<key>hash2</key>
+			<data>
+			Hku7/ONgdrB4W838Y7kdi3rp5KTOaltIR4UJuNnDLGk=
+			</data>
+		</dict>
 		<key>www/assets/js/moment.js</key>
 		<dict>
 			<key>hash</key>
@@ -1352,22 +1427,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Cq85a8JI81flH02Y0tg3RAGiY80=
+			k094mAxwhN3oURrZfm7CYnIugeY=
 			</data>
 			<key>hash2</key>
 			<data>
-			hIAcDePHqCP3VEttS0Ffyox/0ivSZ0SQoXDqpAdmx7U=
+			l+FSYwR/p3K6tTtug9o3npA6X9VNcmInKWWGS6tyDlo=
 			</data>
 		</dict>
 		<key>www/build/main.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			lSZg6krM4sEkGhJbPrWoZZYkifc=
+			RYvO/F/DNyYgUKNxMmb6NqCh+7E=
 			</data>
 			<key>hash2</key>
 			<data>
-			HdHD9BHBn6SA8742Z/EFuL/d1+7Zp/sUl+VHSYE0sBM=
+			A0kFoDZC2fMslvljI/cptMgM5pKRFhaXbnyLiBsrGwg=
 			</data>
 		</dict>
 		<key>www/build/polyfills.js</key>
@@ -1396,22 +1471,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			OcYbphCK3ot/G57MiizOLARmBSo=
+			p1mlfkH66sAakcb/FMY7QHn4irc=
 			</data>
 			<key>hash2</key>
 			<data>
-			3jaczFWRMriZpQfObS1JIamVvhjfKLbg5ZdJaMwl3TU=
+			v5XkSuk7xkLQy48lkwda0VVK85Uj3bkCh5MtgwrIlXI=
 			</data>
 		</dict>
 		<key>www/build/vendor.js.map</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ViWz0iVC2bsByM74wM2d2m4S8zQ=
+			DxS+QeCShO+DX3xrYgzkC7RbdQA=
 			</data>
 			<key>hash2</key>
 			<data>
-			ZiAD5wvqENkUc6xNPX/Ju8lynPb/k/h5+a6b0T8wWRg=
+			YsnvrMm+rW5CPReOrKdKYAaqR5D8snZUkxivskFxO1I=
 			</data>
 		</dict>
 		<key>www/cordova-js-src/exec.js</key>

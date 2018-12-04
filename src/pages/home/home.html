@@ -16,6 +16,8 @@
 
     <button ion-button secondary menuToggle>Toggle Menu</button>
 
+    <button ion-button block color="light" round (click)="showCheckAlert()">Show Modal</button>
+
     <button ion-button block (click)="openActionSheet()">
         Show Action Sheet
     </button>
@@ -88,10 +90,18 @@
     </ion-list>
 
     <ion-list>
-        <button ion-item>
-            <ion-label>Alert</ion-label>
-            <ion-note item-end>None</ion-note>
-        </button>
+        <ion-list-header>
+            Modal
+        </ion-list-header>
+        <a ion-item (click)="openModal({charNum: 0})">
+            Gollum
+        </a>
+        <a ion-item (click)="openModal({charNum: 1})">
+            Frodo Baggins
+        </a>
+        <a ion-item (click)="openModal({charNum: 2})">
+            Sam
+        </a>
     </ion-list>
 
     <ion-icon name="heart"></ion-icon>                    <!-- active -->
