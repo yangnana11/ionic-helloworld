@@ -21,6 +21,7 @@ import { RadioPage } from '../pages/radio/radio'
 import { RangePage } from '../pages/range/range'
 import { SearchPage } from '../pages/search/search'
 import { SegmentPage } from '../pages/segment/segment'
+import { SelectPage } from '../pages/select/select'
 
 @NgModule({
     declarations: [
@@ -39,7 +40,8 @@ import { SegmentPage } from '../pages/segment/segment'
         RadioPage,
         RangePage,
         SearchPage,
-        SegmentPage
+        SegmentPage,
+        SelectPage
     ],
     imports: [
         BrowserModule,
@@ -62,7 +64,8 @@ import { SegmentPage } from '../pages/segment/segment'
         RadioPage,
         RangePage,
         SearchPage,
-        SegmentPage
+        SegmentPage,
+        SelectPage
     ],
     providers: [
         StatusBar,
