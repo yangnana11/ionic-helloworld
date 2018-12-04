@@ -5,6 +5,7 @@ import { AlertController } from 'ionic-angular'
 import { LoadingController } from 'ionic-angular';
 import moment from 'moment';
 import { ModalPage } from '../modal/modal'
+import { ListPage } from '../list/list'
 
 @Component({
     selector: 'page-home',
@@ -284,6 +285,12 @@ export class HomePage {
     openModal(characterNum) {
         let modal = this.modalCtrl.create(ModalPage, characterNum);
         modal.present();
+    }
+
+    goToOtherPage() {
+        //push another page onto the history stack
+        //causing the nav controller to animate the new page in
+        this.navCtrl.push(ListPage);
     }
 
 }
