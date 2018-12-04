@@ -17,6 +17,7 @@ import { ModalPage } from '../pages/modal/modal'
 import { PopoverPage } from '../pages/popover/popover'
 import { PoplistPage } from '../pages/popover/poplist'
 import { CheckPage } from '../pages/check/check'
+import { RadioPage } from '../pages/radio/radio'
 
 @NgModule({
     declarations: [
@@ -31,7 +32,8 @@ import { CheckPage } from '../pages/check/check'
         ModalPage,
         PopoverPage,
         PoplistPage,
-        CheckPage
+        CheckPage,
+        RadioPage
     ],
     imports: [
         BrowserModule,
@@ -50,7 +52,8 @@ import { CheckPage } from '../pages/check/check'
         ModalPage,
         PopoverPage,
         PoplistPage,
-        CheckPage
+        CheckPage,
+        RadioPage
     ],
     providers: [
         StatusBar,

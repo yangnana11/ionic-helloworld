@@ -12,6 +12,7 @@ import { GridPage } from '../pages/grid/grid'
 import { InputPage } from '../pages/input/input'
 import { PopoverPage } from '../pages/popover/popover'
 import { CheckPage } from '../pages/check/check'
+import { RadioPage } from '../pages/radio/radio'
 
 @Component({
     templateUrl: 'app.html'
@@ -32,11 +33,12 @@ export class MyApp {
             {title: 'Card', component: CardPage},
             {title: 'Check', component: CheckPage},
             {title: 'Fab', component: FabPage},
-            {title: 'List', component: ListPage},
             {title: 'Gesture', component: GesturePage},
             {title: 'Grid', component: GridPage},
             {title: 'Input', component: InputPage},
-            {title: 'Popover', component: PopoverPage}
+            {title: 'List', component: ListPage},
+            {title: 'Popover', component: PopoverPage},
+            {title: 'Radio', component: RadioPage}
         ]
 
     }

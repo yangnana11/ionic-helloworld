@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Tue Dec 04 13:45:09 KST 2018
+#Tue Dec 04 13:51:32 KST 2018
 56.path=www/assets/imgs/avatar-frodo.jpg
 5.base=/Users/nana/Documents/own_studying/ionic/ionic-helloworld/platforms/android/app/build/intermediates/assets/debug
 42.base=/Users/nana/Documents/own_studying/ionic/ionic-helloworld/platforms/android/app/build/intermediates/assets/debug
